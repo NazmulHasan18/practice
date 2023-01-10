@@ -1,0 +1,43 @@
+@keyframes coloring {
+    0%{
+        color: yellow;
+    }
+    100%{
+        color: red;
+    }
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, auto); */
+    gap: 15px;
+    
+}
+.item{
+    width: 90%;
+    padding: 20px;
+    border: 3px solid red;
+    border-radius: 10px;
+    background-color: blueviolet;
+}
+.item .money{
+    color: brown;
+    animation: coloring 1s case 0 infinite relative ;
+    animation-play-state: running;
+    
+}
+.item img{
+    width: 100%;
+    /* height: 100%; */
+
+}
+.primary-btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aqua;
+    color: white;
+    border: 0;
+}
+.price{
+    color: antiquewhite;
+}

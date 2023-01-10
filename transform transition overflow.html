@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+        /* .overflow {
+            /* height: 40px; */
+        /* width: 300px;
+            border: 3px solid red; */
+        /* overflow: hidden; */
+        /* text-overflow: ellipsis; */
+
+        /* }
+
+        .wordwrap {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        } */
+
+        /* .box{
+            background-color: crimson;
+        } */
+        .container,
+        .sub-container {
+            height: 200px;
+            width: 200px;
+            border: 3px solid rebeccapurple;
+            transition: transform 5s;
+        }
+        .sub-container:hover{
+             transform:rotate(30deg);
+        }
+
+        .container {
+            background-color: aqua;
+
+        }
+
+        .sub-container {
+            background-color: red;
+            /* width: 200px; */
+           
+            
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="overflow"
+        title=" aut tempore autem. Aliquid optio officia beatae? Provident ex aperiam repellat corporis eius, assumenda quia nemo cupiditate, veniam laboriosam illum minima magni sunt temporibus quasi quas explicabo adipisci rem! Facere.">
+        <p class="wordwrap">am laboriosam illum minima magni sunt temporibus quasi quas explicabo adipisci rem! Facere.
+        </p>
+    </div> -->
+    <div class="box">
+        <div class="container">
+            <div class="sub-container">Box-1</div>
+        </div>
+        <div class="container">
+            <div class="sub-container">Box-2</div>
+        </div>
+        <div class="container">
+            <div class="sub-container">Box-3</div>
+        </div>
+    </div>
+</body>
+
+</html>
